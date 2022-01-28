@@ -17,6 +17,14 @@ int main()
         cout<<i<<" ";
     }
     cout<<"Don't belong to for loop "<<i<<endl;
+
+    i = 0;
     cout<<"While loop..."<<endl;
+    while( i < 10)
+    {
+        cout<<i<<" ";
+        i++;
+    }
+    cout<<"Don't belong to while loop "<<i<<endl;
     return 0;
 }
